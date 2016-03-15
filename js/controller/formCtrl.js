@@ -1,4 +1,11 @@
-//nome do controller //funçao que executara o controller
-angular.module('myApp',[]).controller('FormCtrl', function(){
-	console.log('FormCtrl Funcionando!');
+//funçao que executara o controller
+myApp.controller('FormCtrl', function( $scope ){
+	/*console.log('FormCtrl Funcionando!');*/
+	$scope.pessoa = {
+		name : 'Tiago',
+		lastname : 'Albuquerque',
+		age : 26,
+		email : 'tiago@gmail.com',
+		phone : 99735231
+	}
 });
